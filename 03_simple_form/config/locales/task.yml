@@ -1,0 +1,8 @@
+pt:
+    activerecord:
+        attributes:
+            task:
+                name: 'Nome'
+                short_description: 'Pequena Descrição'
+                done: 'Pronto?'
+                project: 'Projeto'

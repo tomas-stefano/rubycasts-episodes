@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+source 'http://rubygems.org'
+
+group :development do
+  gem 'rails', '3.1.0.rc4'
+  gem 'sqlite3'
+  gem 'awesome_print'
+  gem 'simple_form'
+end
+
+# Asset template engines
+# gem 'sass-rails', "~> 3.1.0.rc"
+# gem 'uglifier'
+#
+# gem 'jquery-rails'
+
+# Use unicorn as the web server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'ruby-debug19', :require => 'ruby-debug'

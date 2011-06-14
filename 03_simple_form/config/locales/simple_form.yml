@@ -1,0 +1,5 @@
+pt:
+  # simple_form:
+  #   required:
+  #     text: 'obrigatório'
+  #     mark: '*'

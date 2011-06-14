@@ -1,0 +1,14 @@
+<%= simple_form_for(@task) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+    <%= f.input :name, label_html: { :class => 'my_label_class' }%>
+    <%= f.input :short_description, placeholder: 'Put a short description' %>
+    <%= f.input :done %>
+    <%= f.association :project  %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
