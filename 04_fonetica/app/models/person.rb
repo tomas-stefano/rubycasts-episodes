@@ -1,5 +1,7 @@
 class Person < ActiveRecord::Base
-  scope :fonetica, lambda { |name| where(arel_table[:fonetica].matches("#{name.foneticalize}%")) }
+  scope :fonetica, lambda { |name|
+    where(arel_table[:fonetica].matches("#{name.foneticalize}%"))
+  }
 
   before_save :foneticalize
 
