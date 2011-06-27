@@ -1,0 +1,2 @@
+class TasksController < CrudController
+end

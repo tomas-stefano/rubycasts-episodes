@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+infinity_test do
+  use :app_framework => :rails
+
+  before(:all) do
+    clear :terminal
+  end
+
+  heuristics do
+   add('lib/*/*/(.*).rb') do |file|
+     run :all => :tests, :in_dir => :generators
+   end
+  end
+end
