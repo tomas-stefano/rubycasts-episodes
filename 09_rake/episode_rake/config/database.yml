@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: episode_rake_development
+  pool: 5
+  username: tomas
+  password:
+
+### Slaves for example ###
+
+foo:
+  adapter: postgresql
+  encoding: unicode
+  database: episode_rake_foo
+  pool: 5
+  username: tomas
+  password:
+
+
+bar:
+  adapter: postgresql
+  encoding: unicode
+  database: episode_rake_bar
+  pool: 5
+  username: tomas
+  password:
+
