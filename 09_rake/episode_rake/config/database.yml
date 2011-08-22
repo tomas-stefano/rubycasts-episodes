@@ -1,3 +1,4 @@
+# config # => { :adapter => 'postgresql' ... }
 development:
   adapter: postgresql
   encoding: unicode
